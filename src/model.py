@@ -289,7 +289,8 @@ def metrics(rows):
         rmse = format(
             (Decimal(mse.numerator) / Decimal(mse.denominator))
             .sqrt()
-            .quantize(Decimal("0.000000000001"), rounding=ROUND_HALF_EVEN), ".12f"
+            .quantize(Decimal("0.000000000001"), rounding=ROUND_HALF_EVEN),
+            ".12f",
         )
     return dict(
         n=n,

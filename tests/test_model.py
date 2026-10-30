@@ -143,5 +143,69 @@ class Fixtures(unittest.TestCase):
         self.assertEqual((21 * 10 + 99) // 100, 3)
 
 
+class SourceFixtures(unittest.TestCase):
+    def base(self):
+        return dict(
+            source_row=0,
+            report_year="2023",
+            building_key="a",
+            property_key="p",
+            bucket=4,
+            bin_valid=True,
+            property_valid=True,
+            year_ending="2023-12-31T00:00:00.000",
+            primary_property_type="Office",
+            parent_property_id="Not Applicable: Standalone Property",
+            construction_status="Existing",
+            number_of_buildings="1",
+            occupancy="90",
+            property_gfa_self_reported="50000",
+            property_gfa_calculated_1="50000",
+            weather_normalized_site_eui="60",
+            site_eui_kbtu_ft="60",
+            site_energy_use_kbtu="3000000",
+            estimated_values_energy="No",
+            alert_energy_meter_has_less="Ok",
+            alert_energy_meter_has_gaps="Ok",
+            alert_energy_meter_has="Ok",
+            alert_energy_no_meters="Ok",
+        )
+
+    def test_source_duplicates_excluded(self):
+        first = self.base()
+        second = dict(first, source_row=1)
+        eligible, audit = qualify([first, second])
+        self.assertEqual(eligible, [])
+        self.assertTrue(all("ambiguous_year_bin" in r["reasons"] for r in audit))
+
+    def test_property_aliases_excluded(self):
+        first = self.base()
+        second = dict(
+            first,
+            source_row=1,
+            report_year="2024",
+            year_ending="2024-12-31",
+            building_key="b",
+        )
+        eligible, audit = qualify([first, second])
+        self.assertEqual(eligible, [])
+        self.assertTrue(
+            all("property_maps_multiple_bins" in r["reasons"] for r in audit)
+        )
+
+    def test_unknown_meter_data_abstains(self):
+        row = self.base()
+        self.assertEqual(len(qualify([row])[0]), 1)
+        row["alert_energy_meter_has_gaps"] = "Unable to Check (not enough data)"
+        self.assertEqual(qualify([row])[0], [])
+
+    def test_energy_area_units_checked(self):
+        row = self.base()
+        row["site_energy_use_kbtu"] = "3000"
+        eligible, audit = qualify([row])
+        self.assertEqual(eligible, [])
+        self.assertIn("site_energy_area_identity", audit[0]["reasons"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T15:33:46.258582+00:00",
+  "timestamp_utc": "2026-10-30T15:34:19.676995+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 26,
+  "files_checked": 27,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -20,16 +20,17 @@
     "results/development_metrics.json": "4ac3b107144bf2846cfdc73ce237ce89d6161b56467843b5d7c9a3464f7db4cd",
     "results/development_predictions.csv": "f5b51102eae7cf8fd7753de8f3c0ee04a5c7781c10ec675495fe56ce92156fad",
     "results/fitted_peers.json": "3457613bc00044b53f5992df6b4163e35c48cdc6ad03039b7c545ef30d13260e",
+    "results/frozen_dependencies.json": "98387e270675395a8367fb2b90c1102838f2039c2d813096557f4ac73992a08d",
     "results/independent_development.json": "a60bb6e14170a438f90afbb74e9ad633986bde6482cec8c064683a0ac0e46f8d",
     "results/pair_eligibility.csv": "19906567bb41c9cc8192b7295822296eac00401ca6fff3e2aab2b01543491894",
     "results/selection.json": "fa214cb31e113de0531df8bda49ef926bd42a5975a976dfd1ce6af1662ec2e98",
     "results/source_eligibility.csv": "ae3626bbfb613c57e04298306ac83f1f215555642cde96a2151b054f610ff4f0",
     "src/collect_source.py": "60ea1b857f5ec20d5a6d86e50af7063d6af47e02486cc799d6bcb102df8125c2",
-    "src/model.py": "8ba68903c545c8be6d407e4ff3102c3c310e527d91c1db568e87d6008d08e5f4",
+    "src/model.py": "63c9a303957386c9c1f9776776fc1955c0cd3b7e11d63b96039559ffa65006f2",
     "src/run_analysis.py": "0568aa98dc166db0c4e06ceeb83e7e8287a5d4c0f27314a8591d26338a14b423",
-    "src/verify_results.py": "069b59cc27f3106432ebfd9176d951654a07016abbae557793a319864da1f096",
+    "src/verify_results.py": "1939aec9b19deef08ba497a627f6b694532b301e711be1867390c7c37daa482a",
     "src/verify_source.py": "1f73c59b0a6b5eb485a7dc7b0cb37ff618f88f3b05432e80569e00c9183813fd",
-    "tests/test_model.py": "99e421ed3c8d93f875d293c916f8e3b94525c88367819407296112a9522f78c4"
+    "tests/test_model.py": "e946c2b3bf3d4ed09b0d92af955b6256afceb65c3bb12811361fe810d56eb630"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,

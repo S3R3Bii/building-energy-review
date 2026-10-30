@@ -1,0 +1,27 @@
+{
+  "sha256": {
+    "DATA_RIGHTS.md": "d7783df747b768972e9a1ea1847fd02a322d76a090260dccae50fa220ef6e86e",
+    "PROTOCOL.md": "1e6a5d4e253f602267c781a66ccc27535959c8251cfa999aba2a6c79a70fb98a",
+    "data/field_dictionary.json": "5527b5546e626c9cefcb284e1e56016fd54ba16ffe0b0812449a1a31cfb418f6",
+    "data/records.json.gz": "582d71f09f10b223444b9dda8222fc26014420138b08e62dba79efd5fe42b4c5",
+    "data/source_manifest.json": "ea91a64678cc5f2f1b65247087daabed64b29d63795c256b2f9e810685cdf9a9",
+    "data/source_verification.json": "7a1d75a65ba4408a8330531c14ce552ee1a0f2642718ac275d01cf20df28498a",
+    "requirements.txt": "b1df127986036afe3759b4135cb12c463790b95d32e6a09f4341a02bc12919b4",
+    "results/coverage.json": "cd7fced18db48c6841e3834d25eb88004c232b18caa5f1aa227840df90dc1e5c",
+    "results/development_metrics.json": "4ac3b107144bf2846cfdc73ce237ce89d6161b56467843b5d7c9a3464f7db4cd",
+    "results/development_predictions.csv": "f5b51102eae7cf8fd7753de8f3c0ee04a5c7781c10ec675495fe56ce92156fad",
+    "results/fitted_peers.json": "3457613bc00044b53f5992df6b4163e35c48cdc6ad03039b7c545ef30d13260e",
+    "results/independent_development.json": "a60bb6e14170a438f90afbb74e9ad633986bde6482cec8c064683a0ac0e46f8d",
+    "results/pair_eligibility.csv": "19906567bb41c9cc8192b7295822296eac00401ca6fff3e2aab2b01543491894",
+    "results/selection.json": "fa214cb31e113de0531df8bda49ef926bd42a5975a976dfd1ce6af1662ec2e98",
+    "results/source_eligibility.csv": "ae3626bbfb613c57e04298306ac83f1f215555642cde96a2151b054f610ff4f0",
+    "src/collect_source.py": "60ea1b857f5ec20d5a6d86e50af7063d6af47e02486cc799d6bcb102df8125c2",
+    "src/model.py": "63c9a303957386c9c1f9776776fc1955c0cd3b7e11d63b96039559ffa65006f2",
+    "src/run_analysis.py": "0568aa98dc166db0c4e06ceeb83e7e8287a5d4c0f27314a8591d26338a14b423",
+    "src/verify_results.py": "1939aec9b19deef08ba497a627f6b694532b301e711be1867390c7c37daa482a",
+    "src/verify_source.py": "1f73c59b0a6b5eb485a7dc7b0cb37ff618f88f3b05432e80569e00c9183813fd",
+    "tests/test_model.py": "e946c2b3bf3d4ed09b0d92af955b6256afceb65c3bb12811361fe810d56eb630"
+  },
+  "source_visibility": "Unblinded current source and quality counts;held scores/summaries not computed",
+  "status": "FROZEN_BEFORE_HELD_SCORES"
+}
