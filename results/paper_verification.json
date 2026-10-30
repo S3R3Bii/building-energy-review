@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 274,
+  "pages": 7,
+  "numeric_display_values": 119,
+  "manuscript_sha256": "40652efbc0fdc5b736e4c8025be324d5a45123e0e5b64412b860992b1386a234",
+  "scope": "Observation-export arithmetic,display text,claims,hashes and bounded PDF actions;visual checks recorded separately"
+}
