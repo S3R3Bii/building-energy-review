@@ -1,0 +1,387 @@
+[
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "39.598724909439",
+        "area_weighted_mae_exact": "970829663/24516690",
+        "mae": "34.392307692308",
+        "mae_exact": "4471/130",
+        "mse": "2412.530000000000",
+        "mse_exact": "241253/100",
+        "n": 26,
+        "rmse": "49.117512151981"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "29.206163602276",
+        "area_weighted_mae_exact": "170268137/5829870",
+        "mae": "33.781818181818",
+        "mae_exact": "1858/55",
+        "mse": "1596.982727272727",
+        "mse_exact": "1756681/1100",
+        "n": 22,
+        "rmse": "39.962266293001"
+      },
+      "Office": {
+        "area_weighted_mae": "17.192675530175",
+        "area_weighted_mae_exact": "56238789/3271090",
+        "mae": "23.285057471264",
+        "mae_exact": "10129/435",
+        "mse": "1007.240689655172",
+        "mse_exact": "1460499/1450",
+        "n": 87,
+        "rmse": "31.737055466051"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.846434612260",
+        "area_weighted_mae_exact": "41536603/2092900",
+        "mae": "23.940000000000",
+        "mae_exact": "1197/50",
+        "mse": "859.802000000000",
+        "mse_exact": "429901/500",
+        "n": 10,
+        "rmse": "29.322380530919"
+      }
+    },
+    "config": "pooled",
+    "overall": {
+      "area_weighted_mae": "19.793916187230",
+      "area_weighted_mae_exact": "2686345488/135715715",
+      "mae": "26.914482758621",
+      "mae_exact": "19513/725",
+      "mse": "1338.533517241379",
+      "mse_exact": "4852184/3625",
+      "n": 145,
+      "rmse": "36.585974324068"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "37.217105918458",
+        "area_weighted_mae_exact": "55299409/1485860",
+        "mae": "31.569230769231",
+        "mae_exact": "2052/65",
+        "mse": "1784.246346153846",
+        "mse_exact": "9278081/5200",
+        "n": 26,
+        "rmse": "42.240340270337"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "24.589423263297",
+        "area_weighted_mae_exact": "143353141/5829870",
+        "mae": "28.740909090909",
+        "mae_exact": "6323/220",
+        "mse": "1600.625227272727",
+        "mse_exact": "7042751/4400",
+        "n": 22,
+        "rmse": "40.007814577564"
+      },
+      "Office": {
+        "area_weighted_mae": "17.094461077413",
+        "area_weighted_mae_exact": "978556612/57244075",
+        "mae": "23.278160919540",
+        "mae_exact": "10126/435",
+        "mse": "1017.624137931034",
+        "mse_exact": "295111/290",
+        "n": 87,
+        "rmse": "31.900221596895"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.868584420342",
+        "area_weighted_mae_exact": "124748881/6278700",
+        "mae": "24.100000000000",
+        "mae_exact": "241/10",
+        "mse": "876.090000000000",
+        "mse_exact": "87609/100",
+        "n": 10,
+        "rmse": "29.598817543949"
+      }
+    },
+    "config": "peer-w0",
+    "overall": {
+      "area_weighted_mae": "19.298140453005",
+      "area_weighted_mae_exact": "10476243719/542862860",
+      "mae": "25.650344827586",
+      "mae_exact": "37193/1450",
+      "mse": "1233.781793103448",
+      "mse_exact": "4472459/3625",
+      "n": 145,
+      "rmse": "35.125230150185"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "37.200596664966",
+        "area_weighted_mae_exact": "729628397/19613352",
+        "mae": "31.436057692308",
+        "mae_exact": "65387/2080",
+        "mse": "1788.275198317308",
+        "mse_exact": "297568993/166400",
+        "n": 26,
+        "rmse": "42.288003006968"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "24.913083106913",
+        "area_weighted_mae_exact": "2323840573/93277920",
+        "mae": "29.034659090909",
+        "mae_exact": "51101/1760",
+        "mse": "1629.593984375000",
+        "mse_exact": "20858803/12800",
+        "n": 22,
+        "rmse": "40.368229889048"
+      },
+      "Office": {
+        "area_weighted_mae": "17.361530271910",
+        "area_weighted_mae_exact": "993844741/57244075",
+        "mae": "23.381465517241",
+        "mae_exact": "10849/464",
+        "mse": "1016.465817169540",
+        "mse_exact": "565968167/556800",
+        "n": 87,
+        "rmse": "31.882061055859"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.887831995477",
+        "area_weighted_mae_exact": "499478923/25114800",
+        "mae": "24.135000000000",
+        "mae_exact": "4827/200",
+        "mse": "880.717875000000",
+        "mse_exact": "7045743/8000",
+        "n": 10,
+        "rmse": "29.676891262395"
+      }
+    },
+    "config": "peer-w1",
+    "overall": {
+      "area_weighted_mae": "19.536294166910",
+      "area_weighted_mae_exact": "42422114101/2171451440",
+      "mae": "25.735431034483",
+      "mae_exact": "298531/11600",
+      "mse": "1238.523639008621",
+      "mse_exact": "1149349937/928000",
+      "n": 145,
+      "rmse": "35.192664562500"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "37.184087411474",
+        "area_weighted_mae_exact": "455815372/12258345",
+        "mae": "31.302884615385",
+        "mae_exact": "6511/208",
+        "mse": "1793.917235576923",
+        "mse_exact": "74626957/41600",
+        "n": 26,
+        "rmse": "42.354660140024"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "25.236742950529",
+        "area_weighted_mae_exact": "235403089/9327792",
+        "mae": "29.328409090909",
+        "mae_exact": "25809/880",
+        "mse": "1663.368778409091",
+        "mse_exact": "58550581/35200",
+        "n": 22,
+        "rmse": "40.784418328684"
+      },
+      "Office": {
+        "area_weighted_mae": "17.688114060276",
+        "area_weighted_mae_exact": "8100317823/457952600",
+        "mae": "23.495689655172",
+        "mae_exact": "5451/232",
+        "mse": "1018.171142241379",
+        "mse_exact": "47243141/46400",
+        "n": 87,
+        "rmse": "31.908794120765"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.907079570612",
+        "area_weighted_mae_exact": "249981161/12557400",
+        "mae": "24.170000000000",
+        "mae_exact": "2417/100",
+        "mse": "885.382500000000",
+        "mse_exact": "354153/400",
+        "n": 10,
+        "rmse": "29.755377665222"
+      }
+    },
+    "config": "peer-w2",
+    "overall": {
+      "area_weighted_mae": "19.824653678647",
+      "area_weighted_mae_exact": "21524136389/1085725720",
+      "mae": "25.827068965517",
+      "mae_exact": "149797/5800",
+      "mse": "1246.004659482759",
+      "mse_exact": "289073081/232000",
+      "n": 145,
+      "rmse": "35.298791190107"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "37.188960561152",
+        "area_weighted_mae_exact": "364700087/9806676",
+        "mae": "31.197596153846",
+        "mae_exact": "64891/2080",
+        "mse": "1801.172457932692",
+        "mse_exact": "299715097/166400",
+        "n": 26,
+        "rmse": "42.440222171104"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "25.560402794145",
+        "area_weighted_mae_exact": "2384221207/93277920",
+        "mae": "29.622159090909",
+        "mae_exact": "10427/352",
+        "mse": "1701.949609375000",
+        "mse_exact": "4356991/2560",
+        "n": 22,
+        "rmse": "41.254691968005"
+      },
+      "Office": {
+        "area_weighted_mae": "18.366479501372",
+        "area_weighted_mae_exact": "16821954081/915905200",
+        "mae": "23.697557471264",
+        "mae_exact": "32987/1392",
+        "mse": "1022.740113146552",
+        "mse_exact": "37964113/37120",
+        "n": 87,
+        "rmse": "31.980308209061"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.926327145747",
+        "area_weighted_mae_exact": "500445721/25114800",
+        "mae": "24.205000000000",
+        "mae_exact": "4841/200",
+        "mse": "890.083875000000",
+        "mse_exact": "7120671/8000",
+        "n": 10,
+        "rmse": "29.834273495428"
+      }
+    },
+    "config": "peer-w3",
+    "overall": {
+      "area_weighted_mae": "20.411703312601",
+      "area_weighted_mae_exact": "44323022551/2171451440",
+      "mae": "25.976293103448",
+      "mae_exact": "12053/464",
+      "mse": "1256.224854525862",
+      "mse_exact": "233155333/185600",
+      "n": 145,
+      "rmse": "35.443262470121"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "37.233649220184",
+        "area_weighted_mae_exact": "1825691671/49033380",
+        "mae": "31.144230769231",
+        "mae_exact": "3239/104",
+        "mse": "1810.040865384615",
+        "mse_exact": "752977/416",
+        "n": 26,
+        "rmse": "42.544575040593"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "25.884062637760",
+        "area_weighted_mae_exact": "603602881/23319480",
+        "mae": "29.915909090909",
+        "mae_exact": "13163/440",
+        "mse": "1745.336477272727",
+        "mse_exact": "15358961/8800",
+        "n": 22,
+        "rmse": "41.777224384498"
+      },
+      "Office": {
+        "area_weighted_mae": "19.044844942468",
+        "area_weighted_mae_exact": "4360818129/228976300",
+        "mae": "23.899425287356",
+        "mae_exact": "8317/348",
+        "mse": "1030.172729885057",
+        "mse_exact": "35850011/34800",
+        "n": 87,
+        "rmse": "32.096303991037"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "19.945574720882",
+        "area_weighted_mae_exact": "6261614/313935",
+        "mae": "24.240000000000",
+        "mae_exact": "606/25",
+        "mse": "894.822000000000",
+        "mse_exact": "447411/500",
+        "n": 10,
+        "rmse": "29.913575513469"
+      }
+    },
+    "config": "peer-w4",
+    "overall": {
+      "area_weighted_mae": "21.002349230522",
+      "area_weighted_mae_exact": "1140139537/54286286",
+      "mae": "26.134827586207",
+      "mae_exact": "75791/2900",
+      "mse": "1269.184224137931",
+      "mse_exact": "14722537/11600",
+      "n": 145,
+      "rmse": "35.625611912470"
+    }
+  },
+  {
+    "by_type": {
+      "Hotel": {
+        "area_weighted_mae": "17.495312703305",
+        "area_weighted_mae_exact": "19496689/1114395",
+        "mae": "15.734615384615",
+        "mae_exact": "4091/260",
+        "mse": "491.230384615385",
+        "mse_exact": "1277199/2600",
+        "n": 26,
+        "rmse": "22.163717752565"
+      },
+      "Non-Refrigerated Warehouse": {
+        "area_weighted_mae": "5.297027549499",
+        "area_weighted_mae_exact": "15440491/2914935",
+        "mae": "6.472727272727",
+        "mae_exact": "356/55",
+        "mse": "65.858181818182",
+        "mse_exact": "18111/275",
+        "n": 22,
+        "rmse": "8.115305405108"
+      },
+      "Office": {
+        "area_weighted_mae": "9.360679550678",
+        "area_weighted_mae_exact": "2143373769/228976300",
+        "mae": "29.286206896552",
+        "mae_exact": "8493/290",
+        "mse": "38007.752068965517",
+        "mse_exact": "110222481/2900",
+        "n": 87,
+        "rmse": "194.955769519564"
+      },
+      "Retail Store": {
+        "area_weighted_mae": "7.525690986988",
+        "area_weighted_mae_exact": "11812889/1569675",
+        "mae": "9.660000000000",
+        "mae_exact": "483/50",
+        "mse": "159.942000000000",
+        "mse_exact": "79971/500",
+        "n": 10,
+        "rmse": "12.646817781561"
+      }
+    },
+    "config": "own_lag",
+    "overall": {
+      "area_weighted_mae": "9.878422874610",
+      "area_weighted_mae_exact": "2681314447/271431430",
+      "mae": "22.041379310345",
+      "mae_exact": "3196/145",
+      "mse": "22913.756689655172",
+      "mse_exact": "83062368/3625",
+      "n": 145,
+      "rmse": "151.372906062000"
+    }
+  }
+]

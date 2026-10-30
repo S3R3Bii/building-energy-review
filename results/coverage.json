@@ -1,0 +1,32 @@
+{
+  "by_year": {
+    "2022": 2182,
+    "2023": 951,
+    "2024": 1106
+  },
+  "development_pairs": 145,
+  "eligible_rows": 4239,
+  "exclusion_reasons": {
+    "alert_energy_meter_has": 564,
+    "alert_energy_meter_has_gaps": 621,
+    "alert_energy_meter_has_less": 849,
+    "alert_energy_no_meters": 30,
+    "ambiguous_year_bin": 1689,
+    "area": 495,
+    "area_disagreement": 109,
+    "building_count": 518,
+    "campus_or_unknown_parent": 1199,
+    "construction": 62,
+    "estimated_or_unknown_energy": 5008,
+    "invalid_bin": 963,
+    "occupancy": 1433,
+    "property_maps_multiple_bins": 140,
+    "site_energy": 909,
+    "site_energy_area_identity": 126,
+    "site_eui": 913,
+    "weather_eui": 1384
+  },
+  "held_pair_count_quality_only": 119,
+  "source_rows": 12020,
+  "train_n": 1312
+}
