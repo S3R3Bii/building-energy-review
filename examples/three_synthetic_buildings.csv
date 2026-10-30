@@ -1,0 +1,4 @@
+building_key,property_type,area_ft2,weather_eui_kbtu_ft2_year,site_energy_kbtu_year
+ExampleOffice,Office,50000,90,4500000
+ExampleHotel,Hotel,250000,65,16250000
+ExampleWarehouse,Non-Refrigerated Warehouse,30000,80,2400000

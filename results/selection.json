@@ -1,0 +1,12 @@
+{
+  "config": {
+    "alpha": "0",
+    "id": "peer-w0",
+    "kind": "peer"
+  },
+  "held_outcome_summaries_computed": false,
+  "mae_exact": "37193/1450",
+  "peer_candidates": 6,
+  "primary_metric": "Equal-building next-year validation MAE",
+  "tie_break": "Lower fixed candidate index"
+}

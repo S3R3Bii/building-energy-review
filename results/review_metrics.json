@@ -1,0 +1,331 @@
+[
+  {
+    "bands": [
+      {
+        "above": 4,
+        "denominator": 4,
+        "ratio": "5/4"
+      },
+      {
+        "above": 3,
+        "denominator": 4,
+        "ratio": "3/2"
+      },
+      {
+        "above": 2,
+        "denominator": 4,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 5,
+    "followup_n": 4,
+    "median_area": "42350.000000000000",
+    "median_followup_ratio": "2.361894842045",
+    "method": "peer",
+    "queue_n": 192,
+    "selected_n": 10,
+    "type_counts": {
+      "Hotel": 1,
+      "Non-Refrigerated Warehouse": 5,
+      "Office": 3,
+      "Retail Store": 1
+    },
+    "unavailable_n": 6,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 4,
+      "no_target_in_captured_source": 2
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 11,
+        "denominator": 11,
+        "ratio": "5/4"
+      },
+      {
+        "above": 10,
+        "denominator": 11,
+        "ratio": "3/2"
+      },
+      {
+        "above": 4,
+        "denominator": 11,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 10,
+    "followup_n": 11,
+    "median_area": "41062.500000000000",
+    "median_followup_ratio": "1.943217665615",
+    "method": "peer",
+    "queue_n": 192,
+    "selected_n": 20,
+    "type_counts": {
+      "Hotel": 1,
+      "Non-Refrigerated Warehouse": 9,
+      "Office": 8,
+      "Retail Store": 2
+    },
+    "unavailable_n": 9,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 5,
+      "no_target_in_captured_source": 4
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 23,
+        "denominator": 23,
+        "ratio": "5/4"
+      },
+      {
+        "above": 20,
+        "denominator": 23,
+        "ratio": "3/2"
+      },
+      {
+        "above": 5,
+        "denominator": 23,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 20,
+    "followup_n": 23,
+    "median_area": "51619.000000000000",
+    "median_followup_ratio": "1.723974763407",
+    "method": "peer",
+    "queue_n": 192,
+    "selected_n": 39,
+    "type_counts": {
+      "Hotel": 3,
+      "Non-Refrigerated Warehouse": 15,
+      "Office": 18,
+      "Retail Store": 3
+    },
+    "unavailable_n": 16,
+    "unavailable_reasons": {
+      "area_changed": 1,
+      "invalid_or_ambiguous_target": 9,
+      "no_target_in_captured_source": 6
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 3,
+        "denominator": 5,
+        "ratio": "5/4"
+      },
+      {
+        "above": 2,
+        "denominator": 5,
+        "ratio": "3/2"
+      },
+      {
+        "above": 0,
+        "denominator": 5,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 5,
+    "followup_n": 5,
+    "median_area": "1408656.000000000000",
+    "median_followup_ratio": "1.260252365931",
+    "method": "energy",
+    "queue_n": 192,
+    "selected_n": 10,
+    "type_counts": {
+      "Hotel": 1,
+      "Office": 9
+    },
+    "unavailable_n": 5,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 4,
+      "no_target_in_captured_source": 1
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 5,
+        "denominator": 14,
+        "ratio": "5/4"
+      },
+      {
+        "above": 2,
+        "denominator": 14,
+        "ratio": "3/2"
+      },
+      {
+        "above": 0,
+        "denominator": 14,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 10,
+    "followup_n": 14,
+    "median_area": "707905.000000000000",
+    "median_followup_ratio": "1.055993690852",
+    "method": "energy",
+    "queue_n": 192,
+    "selected_n": 20,
+    "type_counts": {
+      "Hotel": 3,
+      "Office": 16,
+      "Retail Store": 1
+    },
+    "unavailable_n": 6,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 5,
+      "no_target_in_captured_source": 1
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 11,
+        "denominator": 26,
+        "ratio": "5/4"
+      },
+      {
+        "above": 6,
+        "denominator": 26,
+        "ratio": "3/2"
+      },
+      {
+        "above": 0,
+        "denominator": 26,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 20,
+    "followup_n": 26,
+    "median_area": "400943.000000000000",
+    "median_followup_ratio": "1.140286998237",
+    "method": "energy",
+    "queue_n": 192,
+    "selected_n": 39,
+    "type_counts": {
+      "Hotel": 9,
+      "Non-Refrigerated Warehouse": 2,
+      "Office": 26,
+      "Retail Store": 2
+    },
+    "unavailable_n": 13,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 11,
+      "no_target_in_captured_source": 2
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 5,
+        "denominator": 5,
+        "ratio": "5/4"
+      },
+      {
+        "above": 3,
+        "denominator": 5,
+        "ratio": "3/2"
+      },
+      {
+        "above": 2,
+        "denominator": 5,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 5,
+    "followup_n": 5,
+    "median_area": "63850.000000000000",
+    "median_followup_ratio": "1.645107794362",
+    "method": "eui",
+    "queue_n": 192,
+    "selected_n": 10,
+    "type_counts": {
+      "Hotel": 3,
+      "Non-Refrigerated Warehouse": 2,
+      "Office": 4,
+      "Retail Store": 1
+    },
+    "unavailable_n": 5,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 5
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 12,
+        "denominator": 12,
+        "ratio": "5/4"
+      },
+      {
+        "above": 10,
+        "denominator": 12,
+        "ratio": "3/2"
+      },
+      {
+        "above": 4,
+        "denominator": 12,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 10,
+    "followup_n": 12,
+    "median_area": "65674.500000000000",
+    "median_followup_ratio": "1.921924290221",
+    "method": "eui",
+    "queue_n": 192,
+    "selected_n": 20,
+    "type_counts": {
+      "Hotel": 5,
+      "Non-Refrigerated Warehouse": 2,
+      "Office": 10,
+      "Retail Store": 3
+    },
+    "unavailable_n": 8,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 8
+    }
+  },
+  {
+    "bands": [
+      {
+        "above": 17,
+        "denominator": 22,
+        "ratio": "5/4"
+      },
+      {
+        "above": 13,
+        "denominator": 22,
+        "ratio": "3/2"
+      },
+      {
+        "above": 5,
+        "denominator": 22,
+        "ratio": "2"
+      }
+    ],
+    "capacity_percent": 20,
+    "followup_n": 22,
+    "median_area": "67750.000000000000",
+    "median_followup_ratio": "1.608042856171",
+    "method": "eui",
+    "queue_n": 192,
+    "selected_n": 39,
+    "type_counts": {
+      "Hotel": 12,
+      "Non-Refrigerated Warehouse": 4,
+      "Office": 20,
+      "Retail Store": 3
+    },
+    "unavailable_n": 17,
+    "unavailable_reasons": {
+      "invalid_or_ambiguous_target": 12,
+      "no_target_in_captured_source": 5
+    }
+  }
+]

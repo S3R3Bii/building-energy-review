@@ -1,0 +1,116 @@
+[
+  {
+    "dataTypeName": "number",
+    "description": "Time period for the report",
+    "fieldName": "report_year",
+    "name": "Calendar Year"
+  },
+  {
+    "dataTypeName": "number",
+    "description": "Property IDs are unique identifiers for your property that can be used by EPA, you, or other organizations to track and manage your property. There are four main types of Property IDs: Portfolio Manager Property IDs - This is a unique ID assigned by EPA to each property. Portfolio Manager Parent Property IDs - If your property is a campus of buildings and you benchmark one or more \"\"child\"\" buildings individually, then each child building will be associated to its parent through this ID. Custom IDs - A custom ID is an ID that you can set, for example, it could be an ID associated with your company or an ID for a campaign in which you are participating. When you enter a Custom ID, you can enter both a name for the ID and its actual value. For example: (Company ABC Inventory ID, 01234). When you search for these custom IDs in reports, you will see them only as Custom ID 1, Custom ID 2, and Custom ID 3, because Custom ID 1 could be different for different properties in your portfolio. Standard IDs - A standard ID is a special type of ID with a set name that is available within Portfolio Manager. These are IDs associated with local legislation, national campaigns, or other large benchmarking activities. For example, New York City uses the Borough Block and Lot (BBL) number to track buildings in their jurisdiction. To enter a standard ID you can select the ID name from our dropdown list and then enter the value. See Standard ID for a full list.",
+    "fieldName": "property_id",
+    "name": "Property ID"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "The ID for the campus is referred to as the Parent Property ID.",
+    "fieldName": "parent_property_id",
+    "name": "Parent Property ID"
+  },
+  {
+    "dataTypeName": "calendar_date",
+    "description": "Calendar year",
+    "fieldName": "year_ending",
+    "name": "Year Ending"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "A seven-digit identifier Example: 1234567 Find your BIN located at the top of each building’s Property Profile Overview screen on the New York City Department of Buildings’ Building Information System (BIS).",
+    "fieldName": "nyc_building_identification",
+    "name": "NYC Building Identification Number (BIN)"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "Portfolio Manager calculates a property type based on the property uses that you have entered. This is the property type that accounts for more than 50% of your property. For example, if you enter a property that has an Office that accounts for 60% of your Gross Floor Area (GFA) and a Retail store for 40%, the \"Portfolio Manager-Calculated\" Property Type will be \"Office.\" This property type is used to determine your peer group for comparison to the National Median. If no individual property type accounts for more than 50%, then it will be designated as Mixed Use.",
+    "fieldName": "primary_property_type",
+    "name": "Primary Property Type - Portfolio Manager-Calculated"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "Construction Status indicates whether your property is: a design project an existing operational property a test property (one you are using for training or testing new features in Portfolio Manager) You initially select your construction status when you create a property. You can change the construction status on the Details tab, under Basic Information.",
+    "fieldName": "construction_status",
+    "name": "Construction Status"
+  },
+  {
+    "dataTypeName": "number",
+    "description": "Number of Buildings indicates the total number of buildings that are located on a multi-building property. You enter this value into Portfolio Manager whenever you create a multi-building property.  Please note that this value is not the number of buildings that have been individually benchmarked on a multi-building property. For example, you may operate a large university campus with 85 buildings. When you benchmark your property you indicate that there are 85 buildings, but you may only have building-level data to track 4 individual buildings on your campus. In this case, the Number of Buildings is still listed as 85, as you entered it.",
+    "fieldName": "number_of_buildings",
+    "name": "Number of Buildings"
+  },
+  {
+    "dataTypeName": "number",
+    "description": "Occupancy is the percentage of your property’s Gross Floor Area (GFA) that is occupied and operational. This is a measure of the building’s occupancy/use, it is not connected to a building’s “Maximum Occupancy.”  The value you enter for occupancy will not affect your ENERGY STAR Score or any other metrics. Your Score is based on your specific Use Details (Number of Workers, Computers, etc) and you need to update your Use Details to accurately reflect the activity at your property.  Your occupancy could affect your eligibility for ENERGY STAR certification. We have the following occupancy requirements: Office/Bank/Courthouse/Financial Office – at least 55% Hotel - at least 60% Multifamily – at least 80% If you are not seeking certification for one of the above property types, you may not find Occupancy very useful (though it is required, so enter your best guess and move on).Examples to help you determine your occupancy: Office: Occupancy is a measure of the tenant spaces that are leased. If you have a 10-story building, and on average one floor is vacant, and the other 9 floors fully leased and occupied, then the occupancy would be 90%. If you have people working on all floors/areas of your building, then you are 100% occupied. You do not need to count empty cubicles or the number of employees who enter a property. Hotel: Occupancy is a measure of the rooms that are sold. If you have a hotel with 100 rooms, and on average 10 rooms per night are vacant, then the occupancy is 90%. Multifamily: Occupancy is a measure of the units that are leased. If you have a 100 apartments, and 5 are vacant for the year, then the occupancy is 95%. Worship Facility: Occupancy is the percentage of the building that is operational, regardless of how many people are in the building. Most of the time, this will be 100%. There is only one Occupancy rate for each property as a whole. You enter Occupancy when you first create the property, and you can change it on the Details tab. You cannot track occupancy changes over time.",
+    "fieldName": "occupancy",
+    "name": "Occupancy"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "The Site Energy Use divided by the property square foot.",
+    "fieldName": "site_eui_kbtu_ft",
+    "name": "Site EUI (kBtu/ft²)"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "The energy use your property would have consumed during 30-year average weather conditions. For example, if 2012 was a very hot year, then your Weather Normalized Site Energy may be lower than your Site Energy Use, because you would have used less energy if it had not been so hot. It can be helpful to use this weather normalized value to understand changes in energy when accounting for changes in weather. Weather Normalized Site EUI is also available (i.e. Weather Normalized Site Energy divided by property size or by flow through a water/wastewater treatment plant).",
+    "fieldName": "weather_normalized_site_eui",
+    "name": "Weather Normalized Site EUI (kBtu/ft²)"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "The annual amount of all the energy your property consumes on-site, regardless of the source. It includes energy purchased from the grid or in bulk (which are the amounts on utility bills), as well as renewable energy generated and consumed on-site such as from solar and wind (excess renewable energy generated on-site and sold to the utility is excluded from site energy use). Site Energy can be used to understand how the energy use for an individual property has changed over time.",
+    "fieldName": "site_energy_use_kbtu",
+    "name": "Site Energy Use (kBtu)"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "When entering bills, you can mark entries as an \"\"Estimation\"\" if you've entered any estimated meter entries (for energy, water, or waste).  In Reporting, under Data Accuracy, you can choose three general metrics for \"\"Estimated Values\"\" (one for energy, water, and waste), and an \"\"Estimated Data Flag\"\" for each specific meter type. Yes - A meter(s) includes estimated usage. No - There are no estimated meter entries.",
+    "fieldName": "estimated_values_energy",
+    "name": "Estimated Values - Energy"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "You can use the following Alerts to spot check your properties for the most common errors that cause metrics to show as \"\"N/A.\"\"  These alert metrics are at the property level: Gross Floor Area is 0 ft2 – Your property Gross Floor Area must be larger than 0 ft2. Property has no uses – Each property must have at least one Property Use (ex: Office, Retail, K-12 School). A property use is automatically created when you first create a property. You can also create one on the Details tab. Data Center Issue (with Estimates, IT Configuration, or IT Meter) - If you have a Data Center, then you need to either be using Data Center Energy Estimates or have an IT Meter. This alert will flag any properties without the required data/meters. See this FAQ for more details. These alert metrics are available for Energy, Water, and Waste: No meters are associated with this property – This means you haven't told Portfolio Manager which meters to use towards your metrics. You can associate meters from the Energy (Water/Waste) tab, click \"\"Change Meter Selections.” Meter has less than 12 full calendar months of data – 12 full months of calendar data is required for all metrics. A “full month” includes the first and last days of that month. If your bills run from mid-month to mid-month, you will need 13 bills to equal \"\"12 full calendar months.\"\" Meter has overlaps – An overlap is where the same date is covered by multiple bills. Meter has gaps - A gap is where a date(s) is NOT covered by one of your bills.",
+    "fieldName": "alert_energy_meter_has_less",
+    "name": "Alert - Energy Meter has less than 12 full calendar months of data"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "You can use the following Alerts to spot check your properties for the most common errors that cause metrics to show as \"\"N/A.\"\"  These alert metrics are at the property level: Gross Floor Area is 0 ft2 – Your property Gross Floor Area must be larger than 0 ft2. Property has no uses – Each property must have at least one Property Use (ex: Office, Retail, K-12 School). A property use is automatically created when you first create a property. You can also create one on the Details tab. Data Center Issue (with Estimates, IT Configuration, or IT Meter) - If you have a Data Center, then you need to either be using Data Center Energy Estimates or have an IT Meter. This alert will flag any properties without the required data/meters. See this FAQ for more details. These alert metrics are available for Energy, Water, and Waste: No meters are associated with this property – This means you haven't told Portfolio Manager which meters to use towards your metrics. You can associate meters from the Energy (Water/Waste) tab, click \"\"Change Meter Selections.” Meter has less than 12 full calendar months of data – 12 full months of calendar data is required for all metrics. A “full month” includes the first and last days of that month. If your bills run from mid-month to mid-month, you will need 13 bills to equal \"\"12 full calendar months.\"\" Meter has overlaps – An overlap is where the same date is covered by multiple bills. Meter has gaps - A gap is where a date(s) is NOT covered by one of your bills.",
+    "fieldName": "alert_energy_meter_has_gaps",
+    "name": "Alert - Energy Meter has gaps"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "You can use the following Alerts to spot check your properties for the most common errors that cause metrics to show as \"\"N/A.\"\"  These alert metrics are at the property level: Gross Floor Area is 0 ft2 – Your property Gross Floor Area must be larger than 0 ft2. Property has no uses – Each property must have at least one Property Use (ex: Office, Retail, K-12 School). A property use is automatically created when you first create a property. You can also create one on the Details tab. Data Center Issue (with Estimates, IT Configuration, or IT Meter) - If you have a Data Center, then you need to either be using Data Center Energy Estimates or have an IT Meter. This alert will flag any properties without the required data/meters. See this FAQ for more details. These alert metrics are available for Energy, Water, and Waste: No meters are associated with this property – This means you haven't told Portfolio Manager which meters to use towards your metrics. You can associate meters from the Energy (Water/Waste) tab, click \"\"Change Meter Selections.” Meter has less than 12 full calendar months of data – 12 full months of calendar data is required for all metrics. A “full month” includes the first and last days of that month. If your bills run from mid-month to mid-month, you will need 13 bills to equal \"\"12 full calendar months.\"\" Meter has overlaps – An overlap is where the same date is covered by multiple bills. Meter has gaps - A gap is where a date(s) is NOT covered by one of your bills.",
+    "fieldName": "alert_energy_meter_has",
+    "name": "Alert - Energy Meter has overlaps"
+  },
+  {
+    "dataTypeName": "text",
+    "description": "You can use the following Alerts to spot check your properties for the most common errors that cause metrics to show as \"\"N/A.\"\"  These alert metrics are at the property level: Gross Floor Area is 0 ft2 – Your property Gross Floor Area must be larger than 0 ft2. Property has no uses – Each property must have at least one Property Use (ex: Office, Retail, K-12 School). A property use is automatically created when you first create a property. You can also create one on the Details tab. Data Center Issue (with Estimates, IT Configuration, or IT Meter) - If you have a Data Center, then you need to either be using Data Center Energy Estimates or have an IT Meter. This alert will flag any properties without the required data/meters. See this FAQ for more details. These alert metrics are available for Energy, Water, and Waste: No meters are associated with this property – This means you haven't told Portfolio Manager which meters to use towards your metrics. You can associate meters from the Energy (Water/Waste) tab, click \"\"Change Meter Selections.” Meter has less than 12 full calendar months of data – 12 full months of calendar data is required for all metrics. A “full month” includes the first and last days of that month. If your bills run from mid-month to mid-month, you will need 13 bills to equal \"\"12 full calendar months.\"\" Meter has overlaps – An overlap is where the same date is covered by multiple bills. Meter has gaps - A gap is where a date(s) is NOT covered by one of your bills.",
+    "fieldName": "alert_energy_no_meters",
+    "name": "Alert - Energy - No meters selected for metrics"
+  },
+  {
+    "dataTypeName": "number",
+    "description": "The number you enter when you first create a property. It can be edited on the Details tab, under “Basic Information.” This value does not change over time, and it is not time weighted. If you edit it, it deletes the previous value without saving a record of what it had been.",
+    "fieldName": "property_gfa_self_reported",
+    "name": "Property GFA - Self-Reported (ft²)"
+  },
+  {
+    "dataTypeName": "number",
+    "description": "The sum of the GFA of all the Property Uses that you entered on the Details tab, excluding parking GFA. This number should match your “Property GFA – Self-Reported.” If you have Property Uses that change square footage frequently (like office space going vacant), this is a good check to make sure all of your Property Uses add up to the right number. This value is time weighted.",
+    "fieldName": "property_gfa_calculated_1",
+    "name": "Property GFA - Calculated (Buildings) (ft²)"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "Reviewed independent GitHub study authorized; formal-publication projects including Azure remain private.",
+  "public_files": {
+    "paper/main.tex": "905a1099787c74d28bb715668e98bfe86b58af5d69ab1a48d1e0a488a804e5bb",
+    "paper/manuscript.pdf": "40652efbc0fdc5b736e4c8025be324d5a45123e0e5b64412b860992b1386a234",
+    "paper/images/followup_coverage.pdf": "b7683ab574ce78f4c7dc1206d671c2474406019423fa0574191ed7e92f53a966",
+    "paper/images/prediction_context.pdf": "568cb57dd3b129b38f840a42e2cd35d4e9d51a67f70dd070ff343f56237f38de",
+    "paper/images/review_composition.pdf": "8555e6bcd9297aedbcf2d8ffc28dacc8fe42c2b77536f3a0fb5f442eba9a7f73"
+  }
+}

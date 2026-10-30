@@ -1,0 +1,62 @@
+{
+  "captured_utc": "2026-10-30T15:28:54.783738+00:00",
+  "cross_format_cells": 228380,
+  "dictionary_sha256": "5527b5546e626c9cefcb284e1e56016fd54ba16ffe0b0812449a1a31cfb418f6",
+  "identity": "Full SHA256 BIN/property keys;original identity crosswalks excluded",
+  "license_id": null,
+  "public_projection_sha256": "582d71f09f10b223444b9dda8222fc26014420138b08e62dba79efd5fe42b4c5",
+  "requests": [
+    {
+      "bytes": 620097,
+      "file_written_utc": "2026-10-30T15:28:54.783738+00:00",
+      "http_status": "Not retained",
+      "name": "metadata-before.json",
+      "sha256": "485e57cf1b104e52d406b5a5d078a2e64da9db57ab9d127685fc03e164aca36e",
+      "time_basis": "Captured-file last-write UTC; original per-response receipt was not retained before the initial parser failure",
+      "url": "https://data.cityofnewyork.us/api/views/5zyy-y8am.json"
+    },
+    {
+      "bytes": 16,
+      "file_written_utc": "2026-10-30T15:28:57.098547+00:00",
+      "http_status": "Not retained",
+      "name": "count.json",
+      "sha256": "f806ccc09fc632d5013fb8f8da42138ed7b6707c16b6e32dc44469ad85cb4434",
+      "time_basis": "Captured-file last-write UTC; original per-response receipt was not retained before the initial parser failure",
+      "url": "https://data.cityofnewyork.us/resource/5zyy-y8am.json?%24select=count%28%2A%29+AS+n&%24where=report_year+between+2022+and+2024+AND+primary_property_type+in+%28%27Office%27%2C%27Hotel%27%2C%27Retail+Store%27%2C%27Non-Refrigerated+Warehouse%27%29"
+    },
+    {
+      "bytes": 2384456,
+      "file_written_utc": "2026-10-30T15:29:08.924623+00:00",
+      "http_status": "Not retained",
+      "name": "selected.csv",
+      "sha256": "e2919c519fded93516837baf594e458e25b4a8be6e0a245b6a241cfa69f58299",
+      "time_basis": "Captured-file last-write UTC; original per-response receipt was not retained before the initial parser failure",
+      "url": "https://data.cityofnewyork.us/resource/5zyy-y8am.csv?%24select=report_year%2Cproperty_id%2Cnyc_building_identification%2Cyear_ending%2Cprimary_property_type%2Cparent_property_id%2Cconstruction_status%2Cnumber_of_buildings%2Coccupancy%2Cproperty_gfa_self_reported%2Cproperty_gfa_calculated_1%2Cweather_normalized_site_eui%2Csite_eui_kbtu_ft%2Csite_energy_use_kbtu%2Cestimated_values_energy%2Calert_energy_meter_has_less%2Calert_energy_meter_has_gaps%2Calert_energy_meter_has%2Calert_energy_no_meters&%24where=report_year+between+2022+and+2024+AND+primary_property_type+in+%28%27Office%27%2C%27Hotel%27%2C%27Retail+Store%27%2C%27Non-Refrigerated+Warehouse%27%29&%24order=report_year%2Cproperty_id%2Cnyc_building_identification&%24limit=50000"
+    },
+    {
+      "bytes": 7684845,
+      "file_written_utc": "2026-10-30T15:29:11.146686+00:00",
+      "http_status": "Not retained",
+      "name": "selected.json",
+      "sha256": "009e2c2051cc7b04d6c46e6b7210039893039f5f5230416c66db3a494b59d729",
+      "time_basis": "Captured-file last-write UTC; original per-response receipt was not retained before the initial parser failure",
+      "url": "https://data.cityofnewyork.us/resource/5zyy-y8am.json?%24select=report_year%2Cproperty_id%2Cnyc_building_identification%2Cyear_ending%2Cprimary_property_type%2Cparent_property_id%2Cconstruction_status%2Cnumber_of_buildings%2Coccupancy%2Cproperty_gfa_self_reported%2Cproperty_gfa_calculated_1%2Cweather_normalized_site_eui%2Csite_eui_kbtu_ft%2Csite_energy_use_kbtu%2Cestimated_values_energy%2Calert_energy_meter_has_less%2Calert_energy_meter_has_gaps%2Calert_energy_meter_has%2Calert_energy_no_meters&%24where=report_year+between+2022+and+2024+AND+primary_property_type+in+%28%27Office%27%2C%27Hotel%27%2C%27Retail+Store%27%2C%27Non-Refrigerated+Warehouse%27%29&%24order=report_year%2Cproperty_id%2Cnyc_building_identification&%24limit=50000"
+    },
+    {
+      "bytes": 620097,
+      "file_written_utc": "2026-10-30T15:29:11.760620+00:00",
+      "http_status": "Not retained",
+      "name": "metadata-after.json",
+      "sha256": "485e57cf1b104e52d406b5a5d078a2e64da9db57ab9d127685fc03e164aca36e",
+      "time_basis": "Captured-file last-write UTC; original per-response receipt was not retained before the initial parser failure",
+      "url": "https://data.cityofnewyork.us/api/views/5zyy-y8am.json"
+    }
+  ],
+  "rights": "Minimal factual public projection with DOB attribution;no blanket content license claim",
+  "rows_updated_at": 1764097355,
+  "same_source_update_before_after": true,
+  "selected_fields": 19,
+  "source": "NYC DOB LL84,5zyy-y8am",
+  "source_rows": 12020,
+  "vintage": "Current snapshot;original publication vintages unavailable"
+}

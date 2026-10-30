@@ -1,0 +1,478 @@
+{
+  "source-2022-rows": {
+    "value": 3764,
+    "text": "3764"
+  },
+  "source-2022-eligible": {
+    "value": 2182,
+    "text": "2182"
+  },
+  "source-2023-rows": {
+    "value": 4032,
+    "text": "4032"
+  },
+  "source-2023-eligible": {
+    "value": 951,
+    "text": "951"
+  },
+  "source-2024-rows": {
+    "value": 4224,
+    "text": "4224"
+  },
+  "source-2024-eligible": {
+    "value": 1106,
+    "text": "1106"
+  },
+  "dev-pooled-mae": {
+    "value": 26.914482758621,
+    "text": "26.914"
+  },
+  "dev-pooled-rmse": {
+    "value": 36.585974324068,
+    "text": "36.586"
+  },
+  "dev-peer-w0-mae": {
+    "value": 25.650344827586,
+    "text": "25.650"
+  },
+  "dev-peer-w0-rmse": {
+    "value": 35.125230150185,
+    "text": "35.125"
+  },
+  "dev-peer-w1-mae": {
+    "value": 25.735431034483,
+    "text": "25.735"
+  },
+  "dev-peer-w1-rmse": {
+    "value": 35.1926645625,
+    "text": "35.193"
+  },
+  "dev-peer-w2-mae": {
+    "value": 25.827068965517,
+    "text": "25.827"
+  },
+  "dev-peer-w2-rmse": {
+    "value": 35.298791190107,
+    "text": "35.299"
+  },
+  "dev-peer-w3-mae": {
+    "value": 25.976293103448,
+    "text": "25.976"
+  },
+  "dev-peer-w3-rmse": {
+    "value": 35.443262470121,
+    "text": "35.443"
+  },
+  "dev-peer-w4-mae": {
+    "value": 26.134827586207,
+    "text": "26.135"
+  },
+  "dev-peer-w4-rmse": {
+    "value": 35.62561191247,
+    "text": "35.626"
+  },
+  "dev-own_lag-mae": {
+    "value": 22.041379310345,
+    "text": "22.041"
+  },
+  "dev-own_lag-rmse": {
+    "value": 151.372906062,
+    "text": "151.373"
+  },
+  "held-peer-w0-mae": {
+    "value": 22.957983193277,
+    "text": "22.958"
+  },
+  "held-peer-w0-mse": {
+    "value": 1006.881176470588,
+    "text": "1006.881"
+  },
+  "held-peer-w0-rmse": {
+    "value": 31.731391026405,
+    "text": "31.731"
+  },
+  "held-peer-w0-area_weighted_mae": {
+    "value": 20.478938181721,
+    "text": "20.479"
+  },
+  "held-pooled-mae": {
+    "value": 26.547058823529,
+    "text": "26.547"
+  },
+  "held-pooled-mse": {
+    "value": 1201.960756302521,
+    "text": "1201.961"
+  },
+  "held-pooled-rmse": {
+    "value": 34.669305679556,
+    "text": "34.669"
+  },
+  "held-pooled-area_weighted_mae": {
+    "value": 23.76164844095,
+    "text": "23.762"
+  },
+  "held-own_lag-mae": {
+    "value": 9.773109243697,
+    "text": "9.773"
+  },
+  "held-own_lag-mse": {
+    "value": 317.940168067227,
+    "text": "317.940"
+  },
+  "held-own_lag-rmse": {
+    "value": 17.830876817118,
+    "text": "17.831"
+  },
+  "held-own_lag-area_weighted_mae": {
+    "value": 7.861454578479,
+    "text": "7.861"
+  },
+  "type-Office-peer-w0": {
+    "value": 23.481818181818,
+    "text": "23.482"
+  },
+  "type-Office-pooled": {
+    "value": 23.7,
+    "text": "23.700"
+  },
+  "type-Office-own_lag": {
+    "value": 9.006060606061,
+    "text": "9.006"
+  },
+  "type-Hotel-peer-w0": {
+    "value": 16.7,
+    "text": "16.700"
+  },
+  "type-Hotel-pooled": {
+    "value": 32.1125,
+    "text": "32.112"
+  },
+  "type-Hotel-own_lag": {
+    "value": 10.84375,
+    "text": "10.844"
+  },
+  "type-Retail Store-peer-w0": {
+    "value": 30.861538461538,
+    "text": "30.862"
+  },
+  "type-Retail Store-pooled": {
+    "value": 31.030769230769,
+    "text": "31.031"
+  },
+  "type-Retail Store-own_lag": {
+    "value": 15.423076923077,
+    "text": "15.423"
+  },
+  "type-Non-Refrigerated Warehouse-peer-w0": {
+    "value": 21.408333333333,
+    "text": "21.408"
+  },
+  "type-Non-Refrigerated Warehouse-pooled": {
+    "value": 28.2375,
+    "text": "28.238"
+  },
+  "type-Non-Refrigerated Warehouse-own_lag": {
+    "value": 8.108333333333,
+    "text": "8.108"
+  },
+  "main-peer-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "main-peer-followup": {
+    "value": 11,
+    "text": "11"
+  },
+  "main-peer-missing": {
+    "value": 9,
+    "text": "9"
+  },
+  "main-peer-area": {
+    "value": 41062.5,
+    "text": "41,062.5"
+  },
+  "main-peer-ratio": {
+    "value": 1.943217665615,
+    "text": "1.943"
+  },
+  "main-energy-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "main-energy-followup": {
+    "value": 14,
+    "text": "14"
+  },
+  "main-energy-missing": {
+    "value": 6,
+    "text": "6"
+  },
+  "main-energy-area": {
+    "value": 707905.0,
+    "text": "707,905.0"
+  },
+  "main-energy-ratio": {
+    "value": 1.055993690852,
+    "text": "1.056"
+  },
+  "main-eui-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "main-eui-followup": {
+    "value": 12,
+    "text": "12"
+  },
+  "main-eui-missing": {
+    "value": 8,
+    "text": "8"
+  },
+  "main-eui-area": {
+    "value": 65674.5,
+    "text": "65,674.5"
+  },
+  "main-eui-ratio": {
+    "value": 1.921924290221,
+    "text": "1.922"
+  },
+  "capacity-0-selected": {
+    "value": 10,
+    "text": "10"
+  },
+  "capacity-0-followup": {
+    "value": 4,
+    "text": "4"
+  },
+  "capacity-0-missing": {
+    "value": 6,
+    "text": "6"
+  },
+  "capacity-0-ratio": {
+    "value": 2.361894842045,
+    "text": "2.362"
+  },
+  "capacity-1-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "capacity-1-followup": {
+    "value": 11,
+    "text": "11"
+  },
+  "capacity-1-missing": {
+    "value": 9,
+    "text": "9"
+  },
+  "capacity-1-ratio": {
+    "value": 1.943217665615,
+    "text": "1.943"
+  },
+  "capacity-2-selected": {
+    "value": 39,
+    "text": "39"
+  },
+  "capacity-2-followup": {
+    "value": 23,
+    "text": "23"
+  },
+  "capacity-2-missing": {
+    "value": 16,
+    "text": "16"
+  },
+  "capacity-2-ratio": {
+    "value": 1.723974763407,
+    "text": "1.724"
+  },
+  "capacity-3-selected": {
+    "value": 10,
+    "text": "10"
+  },
+  "capacity-3-followup": {
+    "value": 5,
+    "text": "5"
+  },
+  "capacity-3-missing": {
+    "value": 5,
+    "text": "5"
+  },
+  "capacity-3-ratio": {
+    "value": 1.260252365931,
+    "text": "1.260"
+  },
+  "capacity-4-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "capacity-4-followup": {
+    "value": 14,
+    "text": "14"
+  },
+  "capacity-4-missing": {
+    "value": 6,
+    "text": "6"
+  },
+  "capacity-4-ratio": {
+    "value": 1.055993690852,
+    "text": "1.056"
+  },
+  "capacity-5-selected": {
+    "value": 39,
+    "text": "39"
+  },
+  "capacity-5-followup": {
+    "value": 26,
+    "text": "26"
+  },
+  "capacity-5-missing": {
+    "value": 13,
+    "text": "13"
+  },
+  "capacity-5-ratio": {
+    "value": 1.140286998237,
+    "text": "1.140"
+  },
+  "capacity-6-selected": {
+    "value": 10,
+    "text": "10"
+  },
+  "capacity-6-followup": {
+    "value": 5,
+    "text": "5"
+  },
+  "capacity-6-missing": {
+    "value": 5,
+    "text": "5"
+  },
+  "capacity-6-ratio": {
+    "value": 1.645107794362,
+    "text": "1.645"
+  },
+  "capacity-7-selected": {
+    "value": 20,
+    "text": "20"
+  },
+  "capacity-7-followup": {
+    "value": 12,
+    "text": "12"
+  },
+  "capacity-7-missing": {
+    "value": 8,
+    "text": "8"
+  },
+  "capacity-7-ratio": {
+    "value": 1.921924290221,
+    "text": "1.922"
+  },
+  "capacity-8-selected": {
+    "value": 39,
+    "text": "39"
+  },
+  "capacity-8-followup": {
+    "value": 22,
+    "text": "22"
+  },
+  "capacity-8-missing": {
+    "value": 17,
+    "text": "17"
+  },
+  "capacity-8-ratio": {
+    "value": 1.608042856171,
+    "text": "1.608"
+  },
+  "band-peer-0-above": {
+    "value": 11,
+    "text": "11"
+  },
+  "band-peer-0-denom": {
+    "value": 11,
+    "text": "11"
+  },
+  "band-peer-1-above": {
+    "value": 10,
+    "text": "10"
+  },
+  "band-peer-1-denom": {
+    "value": 11,
+    "text": "11"
+  },
+  "band-peer-2-above": {
+    "value": 4,
+    "text": "4"
+  },
+  "band-peer-2-denom": {
+    "value": 11,
+    "text": "11"
+  },
+  "band-energy-0-above": {
+    "value": 5,
+    "text": "5"
+  },
+  "band-energy-0-denom": {
+    "value": 14,
+    "text": "14"
+  },
+  "band-energy-1-above": {
+    "value": 2,
+    "text": "2"
+  },
+  "band-energy-1-denom": {
+    "value": 14,
+    "text": "14"
+  },
+  "band-energy-2-above": {
+    "value": 0,
+    "text": "0"
+  },
+  "band-energy-2-denom": {
+    "value": 14,
+    "text": "14"
+  },
+  "band-eui-0-above": {
+    "value": 12,
+    "text": "12"
+  },
+  "band-eui-0-denom": {
+    "value": 12,
+    "text": "12"
+  },
+  "band-eui-1-above": {
+    "value": 10,
+    "text": "10"
+  },
+  "band-eui-1-denom": {
+    "value": 12,
+    "text": "12"
+  },
+  "band-eui-2-above": {
+    "value": 4,
+    "text": "4"
+  },
+  "band-eui-2-denom": {
+    "value": 12,
+    "text": "12"
+  },
+  "overlap-0-intersection": {
+    "value": 2,
+    "text": "2"
+  },
+  "overlap-0-union": {
+    "value": 38,
+    "text": "38"
+  },
+  "overlap-1-intersection": {
+    "value": 13,
+    "text": "13"
+  },
+  "overlap-1-union": {
+    "value": 27,
+    "text": "27"
+  },
+  "overlap-2-intersection": {
+    "value": 4,
+    "text": "4"
+  },
+  "overlap-2-union": {
+    "value": 36,
+    "text": "36"
+  }
+}

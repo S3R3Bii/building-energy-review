@@ -1,0 +1,10 @@
+# Put a building on a review list
+
+Use this tool when you have more properties than review slots and want to see how the list changes with your objective. The peer list looks for high weather-normalized energy intensity relative to a frozen property-type reference. The consumption list prioritizes large annual energy users; the intensity list uses weather-normalized EUI directly. They can point to different buildings.
+
+1. Check your meter coverage, reporting period, floor area, property type and units first. The study's detailed quality rules are in PROTOCOL.md. The small scoring interface below checks formats and broad ranges; it does not perform a meter, campus-identity or engineering audit.
+2. Prepare a CSV with building_key,property_type,area_ft2,weather_eui_kbtu_ft2_year,site_energy_kbtu_year. Use a safe local identifier; no owner, contact or address is needed. Supported types are Office, Hotel, Retail Store and Non-Refrigerated Warehouse. The frozen reference was built from the screened 2022 NYC cohort; transfer to another portfolio is unvalidated.
+3. Run `python src/score_review.py examples/three_synthetic_buildings.csv --capacity 10 --output example-review.csv`. Those three records are invented to demonstrate the interface and are excluded from research results. The output preserves all three rankings and selected flags. Existing outputs are never overwritten.
+4. For an actual review, use your checked portfolio CSV and a new output filename. Investigate the reason for a high value: meter/area errors, operating schedules and legitimate use differences can all matter. A flag does not establish waste, faults, a legal breach or savings. Decide on physical changes only after an appropriate engineering assessment.
+
+The research comparison uses the same full 192-building 2023 queue at each capacity. Its public IDs are hashed. The own-prior-year EUI forecast outperforms the peer reference on the held annual MAE benchmark; the peer list supplies structural context and is not marketed as the winning forecasting model. No external API is used when scoring your local CSV.
