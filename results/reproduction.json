@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exact_csv_fields": 103262,
+  "json_documents": 7,
+  "tests": 22,
+  "frozen_dependencies": 21,
+  "synthetic_cli_demo": "Executed in a temporary file;excluded from research results",
+  "original_files_unchanged": true,
+  "network_during_replay": false
+}

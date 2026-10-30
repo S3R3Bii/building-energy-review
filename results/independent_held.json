@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "stage": "held",
+  "checks": 296266,
+  "cases": 119,
+  "prediction_rows": 357,
+  "source_rule_and_SQL_lineage": "Independent decimal/rational rules,SQLite duplicate/identity/year/pair joins and exact medians/losses",
+  "scope": "Current-source retrospective benchmark; no engineering usefulness,original-vintage or savings validation"
+}

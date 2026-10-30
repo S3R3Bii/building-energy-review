@@ -1,0 +1,83 @@
+[
+  {
+    "capacity_percent": 5,
+    "first": "peer",
+    "intersection": 1,
+    "jaccard_exact": "1/19",
+    "second": "energy",
+    "selected_n": 10,
+    "union": 19
+  },
+  {
+    "capacity_percent": 5,
+    "first": "peer",
+    "intersection": 7,
+    "jaccard_exact": "7/13",
+    "second": "eui",
+    "selected_n": 10,
+    "union": 13
+  },
+  {
+    "capacity_percent": 5,
+    "first": "energy",
+    "intersection": 1,
+    "jaccard_exact": "1/19",
+    "second": "eui",
+    "selected_n": 10,
+    "union": 19
+  },
+  {
+    "capacity_percent": 10,
+    "first": "peer",
+    "intersection": 2,
+    "jaccard_exact": "1/19",
+    "second": "energy",
+    "selected_n": 20,
+    "union": 38
+  },
+  {
+    "capacity_percent": 10,
+    "first": "peer",
+    "intersection": 13,
+    "jaccard_exact": "13/27",
+    "second": "eui",
+    "selected_n": 20,
+    "union": 27
+  },
+  {
+    "capacity_percent": 10,
+    "first": "energy",
+    "intersection": 4,
+    "jaccard_exact": "1/9",
+    "second": "eui",
+    "selected_n": 20,
+    "union": 36
+  },
+  {
+    "capacity_percent": 20,
+    "first": "peer",
+    "intersection": 11,
+    "jaccard_exact": "11/67",
+    "second": "energy",
+    "selected_n": 39,
+    "union": 67
+  },
+  {
+    "capacity_percent": 20,
+    "first": "peer",
+    "intersection": 28,
+    "jaccard_exact": "14/25",
+    "second": "eui",
+    "selected_n": 39,
+    "union": 50
+  },
+  {
+    "capacity_percent": 20,
+    "first": "energy",
+    "intersection": 14,
+    "jaccard_exact": "7/32",
+    "second": "eui",
+    "selected_n": 39,
+    "union": 64
+  }
+]
